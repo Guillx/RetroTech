@@ -1,0 +1,40 @@
+.search-input-container {
+  background-color: rgb(55, 56, 55);
+  text-align: center;
+  margin-top: -22px;
+}
+
+.search-input-container h1 {
+  color: white;
+  border-top: 2px solid white;
+  width: 80%;
+  margin: auto;
+  padding: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.body-search-container {
+  background-color: rgb(55, 56, 55);
+}
+
+.anuncio-search-result {
+  padding: 20px 100px;
+
+  width: 80%;
+  background-color: rgb(235, 230, 230);
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+.anuncio-search-result a {
+  text-decoration: none;
+  color: #222;
+}
+
+.prueba {
+  color: white;
+}
+
+#search {
+  color: white;
+}

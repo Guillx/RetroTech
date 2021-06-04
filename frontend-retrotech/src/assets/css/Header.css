@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.header {
+  height: 140px;
+  width: 100%;
+  background: #222;
+  background: -webkit-linear-gradient(#333, #222);
+  background: -moz-linear-gradient(#333, #222);
+  background: -o-linear-gradient(#333, #222);
+  background: -ms-linear-gradient(#333, #222);
+  background: linear-gradient(#333, #222);
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 2px solid black;
+  border-top: 4px solid rgb(8, 230, 8);
+}
+
+.logo-header {
+  margin: 2px 900px 2px auto;
+  text-align: center;
+  width: 20%;
+}
+
+.logo-header img {
+  height: 80px;
+  margin-top: 5px;
+}
+
+.logo-header a {
+  text-decoration: none;
+}
+
+.brand-header {
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  font-size: 23px;
+  margin: 10px;
+}
+
+.brand-header strong {
+  color: rgb(81, 199, 53);
+}
+
+.nav-header {
+  width: 24%;
+  margin: auto;
+  text-align: center;
+}
+
+.ul-header {
+  list-style: none;
+  display: flex;
+  margin: auto 0px;
+}
+
+.li-header {
+  padding: 12px;
+}
+
+.li-header a {
+  display: flex;
+  margin: 0;
+  text-decoration: none;
+  color: rgb(245, 244, 244);
+  font-size: 25px;
+  text-align: center;
+  transition: 400ms all;
+}
+
+.li-header a:hover {
+  color: rgb(81, 199, 53);
+}
+
+.li-header i {
+  margin: 0px 10px;
+}

@@ -1,0 +1,249 @@
+.body-ficha-anuncio {
+  background: rgb(189, 56, 128);
+  background: linear-gradient(
+    90deg,
+    rgba(189, 56, 128, 0.8911939775910365) 26%,
+    rgba(124, 58, 142, 0.8323704481792717) 64%,
+    rgba(156, 108, 230, 0.8519782913165266) 100%
+  );
+  padding: 5px 0px;
+  text-align: center;
+}
+
+.anuncio-container {
+  width: 40%;
+  background: rgb(14, 14, 14);
+  background: linear-gradient(
+    180deg,
+    rgba(14, 14, 14, 0.831513288909313) 2%,
+    rgba(51, 52, 52, 0.76582701439951) 40%,
+    rgba(17, 16, 16, 0.8317367630646008) 90%
+  );
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid rgb(105, 104, 104);
+}
+
+.top-veranuncio {
+  display: flex;
+  margin: 10px auto;
+  background-color: rgba(221, 221, 221, 0.103);
+  border-radius: 10px;
+  color: rgb(219, 219, 219);
+}
+
+.username-veranuncio {
+  float: left;
+  width: 45%;
+  text-align: left;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.username-veranuncio i {
+  margin-right: 10px;
+  font-size: 30px;
+}
+.location-veranuncio {
+  float: right;
+  width: 50%;
+  text-align: right;
+  padding: 10px 20px;
+  margin: auto;
+  font-size: 20px;
+  color: rgb(204, 204, 204);
+}
+.location-veranuncio i {
+  margin-right: 10px;
+}
+
+.img-veranuncio {
+  width: 100%;
+  border-radius: 20px;
+  border: 2px solid rgba(34, 34, 34, 0.61);
+}
+
+.titulo-veranuncio {
+  border-bottom: 1px solid white;
+  text-align: left;
+  padding: 10px;
+  color: rgb(211, 210, 210);
+  font-size: 35px;
+}
+
+.precio-veranuncio {
+  border-bottom: 1px solid white;
+  padding: 15px;
+  color: white;
+  text-shadow: 1px 1px 2px white;
+  text-align: right;
+  font-size: 35px;
+  margin: -20px auto;
+}
+.descripcion-veranuncio {
+  color: white;
+  font-size: 19px;
+  line-height: 2;
+  height: 250px;
+  max-height: 250px;
+  text-align: justify;
+  border-bottom: 1px solid white;
+  padding: 10px;
+}
+
+.fecha-veranuncio {
+  text-align: right;
+  padding: 5px 10px;
+  margin-bottom: 0;
+  color: rgb(150, 149, 149);
+  font-size: 18px;
+  border-bottom: 1px solid white;
+}
+
+.solicitud-reserva-container {
+  margin: 20px;
+}
+
+.form-solicitud-reserva {
+  display: grid;
+}
+
+.label-form-solicitud-reserva {
+  color: white;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+#mensajeCompra {
+  height: 100px;
+  width: 500px;
+  margin: 10px auto;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border: 0;
+  outline: none;
+}
+
+.btn-solicitar-reserva {
+  width: 200px;
+  height: 40px;
+  margin: 10px auto -10px auto;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+}
+
+.btn-solicitar-reserva:hover {
+  background: rgb(87, 244, 44);
+  background: linear-gradient(
+    90deg,
+    rgba(87, 244, 44, 1) 8%,
+    rgba(86, 255, 62, 1) 33%,
+    rgba(99, 235, 59, 1) 57%,
+    rgba(103, 221, 25, 0.9710084717480743) 89%
+  );
+}
+/* 
+.anuncio-container .usuario-vendedor {
+  text-align: center;
+  float: right;
+  color: rgb(51, 51, 50);
+  padding: 5px 10px;
+  margin: 10px 15px 20px 10px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgba(255, 255, 6, 0.5);
+  width: 22%;
+  border-radius: 20px;
+}
+.usuario-vendedor i {
+  margin-right: 15px;
+  font-size: 35px;
+}
+
+.img-anuncio {
+  width: 95%;
+  height: 600px;
+  border: 2px solid rgb(49, 49, 49);
+  border-radius: 15px;
+}
+
+.titulo-anuncio {
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  background-color: rgb(49, 49, 49);
+  padding: 15px 10px;
+  color: white;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.precio-anuncio {
+  font-size: 35px;
+  margin-left: 620px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  background-color: rgb(133, 131, 131);
+  color: rgb(37, 37, 37);
+  padding: 5px 20px;
+  border-radius: 50px;
+  width: 20%;
+}
+
+.localizacion-anucio {
+  color: rgb(46, 46, 46);
+  text-align: right;
+}
+.localizacion-anucio i {
+  margin-right: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+.descripcion-anuncio {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  padding: 0px 20px;
+  text-align: left;
+}
+
+.fecha-anuncio {
+  text-align: right;
+}
+
+.btn-reservar {
+  padding: 15px 25px;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: rgb(10, 250, 10);
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgb(34, 34, 34);
+}
+/* .btn-reservar strong {
+  color: rgb(0, 0, 0);
+  background-color: rgb(201, 201, 201);
+  padding: 5px;
+  border-radius: 20px;
+} 
+.btn-reservar:hover {
+  background-color: rgb(9, 197, 9);
+  font-size: 20.2px;
+} */

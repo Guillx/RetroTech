@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.body-registro {
+  width: 100%;
+  height: 100%;
+  padding: 100px 0px;
+  margin: 0px;
+  background: rgb(70, 9, 94);
+  background: linear-gradient(
+    131deg,
+    rgba(70, 9, 94, 1) 14%,
+    rgba(144, 43, 143, 0.9345939059217437) 36%,
+    rgba(192, 99, 240, 1) 55%,
+    rgba(77, 135, 236, 1) 76%,
+    rgba(11, 44, 116, 1) 95%
+  );
+}
+
+.caja-registro {
+  width: 750px;
+  height: 1380px;
+  background: rgb(14, 14, 14);
+  background: linear-gradient(
+    180deg,
+    rgba(14, 14, 14, 0.771513288909313) 2%,
+    rgba(35, 36, 36, 0.766) 40%,
+    rgba(17, 16, 16, 0.8317367630646008) 90%
+  );
+  color: white;
+  margin: 30px auto;
+  position: relative;
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 10px;
+}
+
+.img-registro {
+  width: 120px;
+  height: 120px;
+  padding: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -65px;
+
+  left: calc(49% - 60px);
+  background: rgba(59, 56, 56, 0.75);
+}
+
+.titulo-registro {
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  padding: 0 0 30;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.labels-forms {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.caja-registro input {
+  width: 100%;
+  /* margin-bottom: 20px; */
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.bot-reg {
+  margin: auto;
+}
+
+.btn-enviar-reg {
+  border: none;
+  outline: none;
+  height: 50px;
+  padding: 0px 70px;
+  background: #4cca1c;
+  font-size: 18px;
+  color: white;
+  margin: 20px 250px;
+
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.btn-enviar-reg:hover {
+  cursor: pointer;
+  background: #5df122;
+}
+
+#bordeado {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 20px 40px;
+  margin-top: 5px;
+  background: rgb(29, 28, 28, 0.9);
+  text-align: center;
+}
+
+#bordeado a {
+  text-decoration: none;
+  color: #4cca1c;
+  font-size: 20px;
+  margin: auto;
+}
+
+#bordeado a:hover {
+  color: #2c8609;
+}
+
+.error-forms-reg {
+  color: red;
+  margin-top: -30px;
+  margin-bottom: 15px;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}

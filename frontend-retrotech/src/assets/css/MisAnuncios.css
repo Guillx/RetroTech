@@ -1,0 +1,136 @@
+.misanuncios-container {
+  width: 74%;
+  margin-top: -550px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  border-radius: 0px 0px 20px 20px;
+  background: rgb(189, 56, 128);
+  background: linear-gradient(
+    90deg,
+    rgba(189, 56, 128, 0.9511939775910365) 26%,
+    rgba(124, 58, 142, 0.8923704481792717) 64%,
+    rgba(156, 108, 230, 0.9219782913165266) 100%
+  );
+  padding: 30px 0;
+}
+
+.anuncio-misanuncios {
+  padding: 20px;
+
+  background: rgb(14, 14, 14);
+  background: linear-gradient(
+    180deg,
+    rgba(14, 14, 14, 0.831513288909313) 2%,
+    rgba(51, 52, 52, 0.90582701439951) 45%,
+    rgba(17, 16, 16, 0.8317367630646008) 90%
+  );
+  width: 90%;
+  height: 400px;
+  margin: 20px auto;
+  display: flex;
+
+  border-radius: 15px;
+}
+
+.anuncio-misanuncios img {
+  width: 350px;
+  height: 320px;
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 5px;
+  margin: 30px 20px;
+}
+
+.elements-misanuncios {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.titulo-anuncio-misanuncios {
+  font-size: 29px;
+  width: 770px;
+  max-height: 45px;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: auto 20px;
+  color: #222;
+  background-color: rgba(255, 255, 255, 0.74);
+}
+
+.descripcion-anuncio-misanuncios {
+  font-size: 19px;
+  font-family: "Poppins", sans-serif;
+  padding: 15px 50px;
+  color: rgb(223, 223, 223);
+  height: 120px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  overflow: hidden;
+}
+
+.precio-anuncio-misanuncios {
+  font-size: 36px;
+  text-align: right;
+
+  margin-top: -20px;
+  margin-bottom: 0;
+  padding: 10px 50px;
+  border-bottom: 1px solid white;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+.btns-misanuncios {
+  margin: 10px auto 0 auto;
+  padding: 20px;
+  width: 70%;
+  text-align: center;
+}
+
+.editar-anuncio-misanuncios {
+  padding: 15px 25px;
+  border: none;
+  margin-right: 100px;
+  border-radius: 10px;
+  background: rgb(87, 244, 44);
+  background: linear-gradient(
+    90deg,
+    rgba(87, 244, 44, 1) 8%,
+    rgba(86, 255, 62, 1) 33%,
+    rgba(99, 235, 59, 1) 57%,
+    rgba(103, 221, 25, 0.9710084717480743) 89%
+  );
+  color: rgb(36, 36, 36);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.editar-anuncio-misanuncios:hover {
+  background: rgb(87, 244, 44);
+  background: linear-gradient(
+    90deg,
+    rgb(68, 243, 20) 8%,
+    rgb(64, 224, 43) 33%,
+    rgb(52, 221, 0) 57%,
+    rgba(86, 209, 5, 0.971) 89%
+  );
+}
+
+.eliminar-anuncio-misanuncios {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 10px;
+  background-color: red;
+  color: rgb(36, 36, 36);
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+.eliminar-anuncio-misanuncios:hover {
+  background-color: rgb(241, 81, 81);
+}

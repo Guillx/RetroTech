@@ -1,0 +1,146 @@
+.body-subir {
+  width: 100%;
+  height: 100%;
+  padding: 100px 0px;
+  margin: 0px;
+  background: rgb(70, 9, 94);
+  background: linear-gradient(
+    131deg,
+    rgba(70, 9, 94, 1) 14%,
+    rgba(144, 43, 143, 0.9345939059217437) 36%,
+    rgba(192, 99, 240, 1) 55%,
+    rgba(77, 135, 236, 1) 76%,
+    rgba(11, 44, 116, 1) 95%
+  );
+}
+
+.caja-subir {
+  width: 800px;
+  height: 1370px;
+  background: rgb(14, 14, 14);
+  background: linear-gradient(
+    180deg,
+    rgba(14, 14, 14, 0.771513288909313) 2%,
+    rgba(35, 36, 36, 0.766) 40%,
+    rgba(17, 16, 16, 0.8317367630646008) 90%
+  );
+  color: white;
+  margin: 30px auto;
+  position: relative;
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 10px;
+}
+
+.img-subir {
+  width: 120px;
+  height: 120px;
+  padding: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -65px;
+
+  left: calc(49% - 60px);
+  background: rgba(59, 56, 56, 0.75);
+}
+
+.titulo-subir {
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  padding: 0 0 30;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.caja-subir input {
+  width: 100%;
+  /* margin-bottom: 20px; */
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.select-type {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  /* margin-bottom: 20px; */
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: rgb(116, 115, 115);
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.btns-subir {
+  margin: auto;
+
+  text-align: center;
+}
+.btn-subir {
+  border: none;
+  outline: none;
+  height: 50px;
+  padding: 14.5px 70px;
+  background: #4cca1c;
+  font-size: 18px;
+  color: white;
+  margin: 10px 20px;
+
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.btn-subir:hover {
+  cursor: pointer;
+  background: #5df122;
+}
+
+.link-subir {
+  border: none;
+  outline: none;
+  height: 50px;
+  padding: 14.5px 70px;
+  background: #4cca1c;
+  font-size: 18px;
+  color: white;
+  margin: 10px 20px;
+
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.link-subir:hover {
+  cursor: pointer;
+  background: #5df122;
+}
+
+.fotos-subir {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  /* height: 200px; */
+}
+
+.fotos-subir input {
+  width: 89%;
+  height: 40px;
+}
+.foto-label {
+}
+
+.foto-input {
+}

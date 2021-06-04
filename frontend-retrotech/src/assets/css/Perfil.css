@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.perfil-container {
+  padding-bottom: 250px;
+  padding-top: 10px;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+}
+
+.perfil-header {
+  height: 300px;
+  background: rgb(70, 9, 94);
+  background: linear-gradient(
+    131deg,
+    rgba(70, 9, 94, 1) 14%,
+    rgba(144, 43, 143, 0.9345939059217437) 36%,
+    rgba(192, 99, 240, 1) 55%,
+    rgba(77, 135, 236, 1) 76%,
+    rgba(11, 44, 116, 1) 95%
+  );
+  margin: 20px auto;
+  border-radius: 0px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.foto-perfil-user {
+  height: 230px;
+  width: 230px;
+  padding: 20px;
+  margin: auto 30px auto 220px;
+  border-radius: 50%;
+}
+
+.title-perfil {
+  font-family: "", sans-serif;
+  font-size: 50px;
+  margin: auto;
+  width: 500px;
+  padding: 20px;
+  text-align: center;
+  text-shadow: 1px 1px 10px white;
+  font-weight: bolder;
+  color: rgb(8, 8, 8);
+  font-family: "Montserrat", sans-serif;
+}
+
+.btns-header-perfil {
+  margin: auto 300px auto 20px;
+  padding-left: 0px;
+  display: flex;
+}
+
+.btn-cerrar-sesion {
+  width: 200px;
+
+  height: 60px;
+  margin: 10px 20px;
+  border: none;
+  background-color: rgba(252, 252, 252, 0.973);
+  border-radius: 30px;
+  border: 3px solid rgba(189, 47, 255, 0.726);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.btn-cerrar-sesion:hover {
+  color: white;
+  background: rgb(87, 244, 44);
+  background: linear-gradient(
+    90deg,
+    rgba(87, 244, 44, 1) 8%,
+    rgba(86, 255, 62, 1) 33%,
+    rgba(99, 235, 59, 1) 57%,
+    rgba(103, 221, 25, 0.9710084717480743) 89%
+  );
+
+  font-weight: 600;
+}
+
+.info-usuario-perfil-container {
+  width: 75%;
+  margin: auto;
+}
+
+.info-perfil-usuario {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 10px;
+  width: 100%;
+  height: 25vh;
+  margin: auto;
+  float: left;
+  background: rgb(14, 14, 14);
+  background: linear-gradient(
+    180deg,
+    rgba(14, 14, 14, 0.731513288909313) 2%,
+    rgba(51, 52, 52, 0.54582701439951) 45%,
+    rgba(17, 16, 16, 0.7317367630646008) 90%
+  );
+}
+
+.info-usuario-perfil {
+  font-size: 20px;
+
+  height: 45px;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgba(221, 221, 221, 0.479);
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+.links-perfil-usuario {
+  border-radius: 10px;
+  width: 100%;
+  background: rgb(189, 56, 128);
+  background: linear-gradient(
+    90deg,
+    rgba(189, 56, 128, 0.8911939775910365) 26%,
+    rgba(124, 58, 142, 0.8323704481792717) 64%,
+    rgba(156, 108, 230, 0.8519782913165266) 100%
+  );
+
+  padding: 20px 0px;
+  margin-top: 20px;
+  text-align: center;
+  border: 5px solid rgba(253, 3, 253, 0.719);
+  float: right;
+}
+
+.links-perfil-usuario a {
+  text-decoration: none;
+  font-size: 24px;
+
+  color: rgb(214, 214, 214);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin: auto 100px;
+
+  padding: 18px 30px;
+}
+
+.links-perfil-usuario a:hover {
+  background-color: rgba(255, 255, 255, 0.201);
+  color: #222;
+  border-radius: 10px;
+  border: none;
+  padding: 12px 30px;
+}
+.links-perfil-usuario a:focus {
+  background-color: rgba(255, 255, 255, 0.361);
+  color: #222;
+  border-radius: 10px;
+  border: none;
+  padding: 12px 30px;
+}
+/*
+
+
+.perfil-info-container {
+  width: 32%;
+  height: 400px;
+  margin: 50px 0;
+}
+
+.info-usuario-perfil {
+  padding: 20px;
+  background-color: rgb(219, 219, 219);
+  border: 1px solid rgb(105, 105, 105);
+  border-radius: 5px;
+  margin-top: 35px;
+}
+
+.section-perfil {
+  float: right;
+} */

@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+.body-anuncios {
+  margin: 0px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: rgb(189, 56, 128);
+  background: linear-gradient(
+    90deg,
+    rgba(189, 56, 128, 0.8911939775910365) 26%,
+    rgba(124, 58, 142, 0.8323704481792717) 64%,
+    rgba(156, 108, 230, 0.8519782913165266) 100%
+  );
+  /* background-image: url("../images/bg-consolas.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.titulo-categorias-lista {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  height: 120px;
+  background-color: rgba(51, 50, 50, 0.685);
+}
+.div-link {
+  width: 7%;
+  margin: 30px 0px 10px 220px;
+  padding: 3px 10px;
+  border-radius: 20px;
+  border-bottom: 2px solid black;
+  background-color: rgb(85, 85, 85);
+}
+.div-link:hover {
+  background-color: rgba(88, 88, 88, 0.5);
+}
+.div-link:hover .link-volver {
+  color: rgb(41, 40, 40);
+}
+.link-volver {
+  text-decoration: none;
+  color: rgb(224, 223, 223);
+  font-size: 24px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.link-volver i {
+  margin-right: 15px;
+  font-size: 23px;
+}
+
+.body-cards {
+  width: 75%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card-container {
+  background: rgb(14, 14, 14);
+  background: linear-gradient(
+    180deg,
+    rgba(14, 14, 14, 0.831513288909313) 2%,
+    rgba(51, 52, 52, 0.76582701439951) 40%,
+    rgba(17, 16, 16, 0.8317367630646008) 90%
+  );
+  padding: 10px;
+  display: grid;
+  width: 95%;
+  max-width: 420px;
+  height: 600px;
+  margin: 20px auto;
+
+  border-radius: 16px;
+
+  overflow: hidden;
+}
+
+.card-container:hover {
+  /* border: 1px solid green; */
+  box-shadow: 0px 0px 15px 5px rgb(7, 7, 7);
+}
+
+.card-link {
+  text-decoration: none;
+  color: rgb(31, 31, 31);
+  padding: 10px;
+}
+
+.foto-anuncio-min {
+  width: 100%;
+
+  max-width: 380px;
+  max-height: 320px;
+  margin: auto 7px;
+  border-radius: 10px;
+  border: 1.5px solid black;
+  box-shadow: 0px 0px 20px black;
+}
+
+.location-lista-anuncios {
+  font-size: 16px;
+  padding: 7px;
+
+  margin: -5px auto 10px 0;
+  background-color: rgba(71, 70, 70, 0.462);
+  color: rgb(230, 228, 228);
+  text-align: right;
+  border-radius: 5px;
+  max-width: 400px;
+}
+.location-lista-anuncios i {
+  margin-right: 7px;
+}
+.precio-lista-anuncios {
+  color: rgb(241, 239, 239);
+  position: relative;
+
+  text-align: right;
+  border-radius: 20px;
+
+  width: 100%;
+  margin: 10px 0px 10px -10px;
+
+  font-size: 33px;
+  font-weight: 500;
+  text-shadow: 1px 0px 2px white;
+  font-family: "Open Sans", cursive;
+}
+
+.hr-anuncios {
+  margin-bottom: 10px;
+  color: rgb(201, 199, 199);
+}
+.titulo-lista-anuncios {
+  color: rgb(255, 255, 255, 0.9);
+  position: relative;
+  max-height: 25px;
+  overflow: hidden;
+  margin: -5px 0px 0px 0px;
+  font-size: 24px;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: "Lexend", sans-serif;
+  font-weight: 600;
+}
+
+.descripcion-lista-anuncios {
+  width: 100%;
+  max-width: 400px;
+  max-height: 105px;
+  overflow: hidden;
+  margin: auto;
+
+  font-size: 17px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.774);
+  font-family: "Lexend", sans-serif;
+}

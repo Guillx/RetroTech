@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+.container {
+  width: 100%;
+  background: rgb(197, 196, 196);
+  height: 132px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+
+  border-bottom: 1px solid black;
+}
+.categoria {
+  width: 250px;
+  height: 100px;
+
+  margin: 10px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.categoria a {
+  text-decoration: none;
+  color: black;
+}
+
+.container .categoria h4 {
+  margin-top: -1px;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  transition: 300ms ease;
+}
+
+.container .categoria img {
+  width: 60px;
+  height: 60px;
+  padding: 10px 50px;
+  border-radius: 0px;
+  transition: 300ms ease;
+}
+
+.categoria img:hover {
+  background-color: rgba(176, 175, 177, 0.992);
+
+  border-radius: 5px;
+}
